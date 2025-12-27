@@ -5,5 +5,11 @@ description = "Content for Mastering LLM with Advanced RAG online course."
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
+    "rich-theme-manager>=0.11.0",
     "ruff>=0.6.7",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
 ]
